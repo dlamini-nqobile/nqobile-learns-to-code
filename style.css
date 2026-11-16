@@ -1,0 +1,144 @@
+html {
+  height: 100%;
+  background: 50% 50% no-repeat
+    url('data:image/svg+xml,<svg viewBox="-20 -5 60 40" width="140" xmlns="http://www.w3.org/2000/svg" opacity="0.2"><path d="M1 8l11-7 11 7v8l-11 7-11-7zm0 0l11 8 11-8m0 8L12 8 1 16M12 1v7m0 8v7" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2"/><text x="-12" y="32" font-size="5" font-family="monospace" fill="currentColor">Built on CodePen</text></svg>');
+  scroll-behavior:smooth;
+  background-color: brown;
+}
+
+.image1{
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height:auto;
+}
+      
+h1{
+  text-align: center;
+  font-family: cursive;
+  font-size: 2.5em;
+}
+      
+#intro-sentence{
+  text-align: center;
+  background-color: rgba(40, 117, 86, 0.45);
+  color:rgb(196, 212, 206);
+}
+
+.heading{
+  color: rgb(48, 14, 0)
+}
+
+#content{
+  font-family: cursive;
+  font-size:1.2em;
+  color:rgb(48, 14, 0);
+}
+
+h2{
+  color:rgb(255, 242, 236);
+  font-family: "erode", "Trebuchet MS", sans-serif;
+}
+
+ol li:hover{
+  background-color: rgba(101, 159, 136, 0.65);
+  width: fit-content;
+  border: 2px dotted; border-radius:15px; padding: 3px; border-color: rgb(0, 33, 19);
+}
+
+p #bible:hover{
+  background-color: rgba(101, 159, 136, 0.65);
+  width: fit-content;
+  border-radius:15px; padding: 3px; border-color: rgb(0, 33, 19);
+}
+      
+body{
+  font-family: "Trebuchet MS", "Courier New", monospace;
+  line-height:1.5em;
+  margin-right:0.25em; margin-left:0.25em;
+  margin-top:0.25em; margin-bottom:0.25em; 
+  padding:1em;
+  line-height:1.7em;
+}
+
+h3{
+  font-family: cursive;
+  font-size:1.7em;
+  text-align: center;
+}
+
+.blacks{
+  background-color: rgba(234, 174, 149,0.6);
+  padding:1.2em;
+  margin-top:2em; margin-bottom:2em;
+}
+          
+.fires{
+  background-color:rgba(110, 36, 5,0.6);
+  padding:1.2em;
+  margin-top:2em; margin-bottom:2em;
+}
+
+.cutters{
+  background-color:rgba(101, 159, 136,0.6);
+  padding:1.2em;
+  margin-top:2em; margin-bottom:2em;
+}
+
+h4{
+  text-align:center;
+  font-size:1.2em;
+  font-family: cursive;
+  color:rgb(48, 14, 0);
+}
+      
+.conclusion{
+  padding: 24px;
+  background-color:rgba(255, 242, 236,0.8);
+  border-radius:40px;
+  font-family:cursive;
+}
+
+#antz-bye{
+  display:block;
+  margin: 15px auto 0 auto;
+  max-width: 100%;
+}
+
+@media(min-width: 600px){
+  .conclusion{
+    position: relative;
+    padding-right: 220px;
+  }
+  #antz-bye{
+    position:absolute;
+    bottom: 0;
+    right: 15px;
+    margin: 0;
+  }
+}
+
+.col1{
+  border: double brown 2px;
+  padding: 5px;
+  text-align: center;
+  
+}
+.col2{
+  border: 2px maroon double;
+  padding: 5px;
+  text-align: center;
+}
+
+.reasons{
+  font-weight:bold;
+  font-family:cursive;
+  font-size:1.08em;
+  color:rgb(4, 75, 46);
+}
+      
+body{
+  background-image: linear-gradient(rgba(172, 93, 59, 0.75), rgba(172, 93, 59, 0.75)), url('https://upload.wikimedia.org/wikipedia/commons/9/94/Fire_ants_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original');
+  background-size: cover;
+  background-position: center;
+}
